@@ -51,7 +51,7 @@ local function display_window(bufnr, winid, width, height, col, ty, hl)
     winid = api.nvim_open_win(bufnr, false, {
       relative = 'win',
       width = width,
-      height = height,
+      height = 2,
       row = 0,
       col = col,
       focusable = false,
